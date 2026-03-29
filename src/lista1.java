@@ -4,13 +4,15 @@ public class lista1{
     public static void main(String [] args){
         Scanner kb = new Scanner(System.in);
         lista1 questoes = new lista1();
-        questoes.atividade1(kb);
+        atividade1(kb);
         questoes.atividade2(kb);
         questoes.atividade3(kb);
         kb.close();
     }
     
-    public void atividade1(Scanner kb){
+    //public static nao precisa criar um elemento da classe
+
+    public static void atividade1(Scanner kb){
         // 1 - Crie um programa que peça ao usuário para digitar seu nome e, em seguida, exiba uma
         // mensagem personalizada com o nome informado.
         // Exemplo de entrada:

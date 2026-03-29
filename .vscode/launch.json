@@ -3,10 +3,17 @@
   "configurations": [
     {
       "type": "java",
+      "name": "lista2",
+      "request": "launch",
+      "mainClass": "lista2",
+      "projectName": "UFF Java_d7e1662d"
+    },
+    {
+      "type": "java",
       "name": "Java: Rodar Arquivo Atual",
       "request": "launch",
       "mainClass": "${file}",
-      "console": "externalTerminal"
-    },
+      "console": "integratedTerminal"
+    }
   ]
 }

@@ -7,7 +7,7 @@
       "command": "cmd",
       "args": [
         "/c",
-        "javac -d \"${workspaceFolder}\\bin\" \"${file}\" && cd \"${workspaceFolder}\\bin\" && start cmd /c \"java ${fileBasenameNoExtension} & pause\""
+        "javac -d \"${workspaceFolder}\\bin\" \"${file}\" && cd \"${workspaceFolder}\\bin\" && start cmd /c \"java ${fileBasenameNoExtension}\""
       ],
       "group": {
         "kind": "build",
