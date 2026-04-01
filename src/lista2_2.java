@@ -14,5 +14,6 @@ public class lista2_2 {
         float num1conv, num2conv;
         num1conv = (float)num1;
         num2conv = (float)num2;
+        System.out.println(num1conv + " " + num2conv);
     }
 }
