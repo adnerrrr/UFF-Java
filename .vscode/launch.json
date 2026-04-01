@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "lista3_3",
+      "request": "launch",
+      "mainClass": "lista3_3",
+      "projectName": "UFF Java_d7e1662d"
+    },
+    {
+      "type": "java",
+      "name": "lista3_1",
+      "request": "launch",
+      "mainClass": "lista3_1",
+      "projectName": "UFF Java_d7e1662d"
+    },
+    {
+      "type": "java",
       "name": "lista2",
       "request": "launch",
       "mainClass": "lista2",
