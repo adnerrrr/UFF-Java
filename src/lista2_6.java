@@ -11,8 +11,9 @@ public class lista2_6 {
     // d. acima de 50 unidades: 25% de desconto
     public static void main(String [] args){
         Scanner kb = new Scanner(System.in);
+        String nome;
         System.out.println("Digite o nome do produto: ");
-        kb.nextLine();
+        nome = kb.nextLine();
         float valor;
         System.out.println("Digite o valor do produto: ");
         valor = kb.nextFloat();
@@ -21,6 +22,14 @@ public class lista2_6 {
         quant = kb.nextInt();
         if (quant < 0)
             System.out.print("hilario");
+        else if (quant <= 10)
+            System.out.printf("%d %s por: %f", quant, nome, valor);
+        else if (quant <= 20)
+            System.out.printf("%d %s por: %f", quant, nome, valor * 0.9);
+        else if (quant <= 50)
+            System.out.printf("%d %s por: %f", quant, nome, valor * 0.8);
+        else
+            System.out.printf("%d %s por: %f", quant, nome, valor * 0.75);
         kb.close();
     }
 }
